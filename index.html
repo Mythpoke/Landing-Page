@@ -3,10 +3,11 @@
     <head>
         <title>Landing Page</title>
         <meta charset="UTF-8">
+        <link rel="stylesheet" href="style.css">
     </head>
     <body>
         <div class="header">
-          <div class="mini-header">
+          <div class="small-header">
               <h1>Header logo</h1>
               <ul>
                   <li><a>header link one</a></li>
@@ -14,11 +15,15 @@
                   <li><a>header link three</a></li>
               </ul>
           </div>
-              <h2>This website is awesome</h2>
-              <p>THis website has some subtext that goes here under the main title.
-                 It's a smaller font and the color is lower contrast</p>
-              <button>Sign up</button>
-              <img>
+          <div class="big-header">
+             <div class="left">
+                <h2>This website is awesome</h2>
+                <div class="p">This website has some subtext that goes here under the main title.
+                 It's a smaller font and the color is lower contrast</div>
+                <button class="button">Sign up</button> 
+              </div>  
+              <div class="right"><div class="text">this is a placeholder for an image</div></div>
+           </div>
         </div>
         <div class="section_one">
             <h3>Some random information.</h3>
@@ -51,6 +56,9 @@
                 </div>
                 <button>Sign up</button>
             </div>
+        </div>
+        <div class="footer">
+            <div>Copyright @ The Odin Project 2021</div>
         </div>
     </body>
 </html>
