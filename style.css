@@ -115,7 +115,29 @@ h3 {
     text-align: center;
 }
 
+/*section_two*/
 
+.section_two {
+    background-color: #E5E7EB;
+    padding: 12em;
+    display: flex;
+    flex-direction: column;
+}
+
+.quote {
+    font-size: 36px;
+    font-style: light italic;
+    color: #1F2937;
+    max-width: 34em;
+}
+
+.thor {
+    font-weight: bold;
+    align-self: self-end;
+    margin-right: 15em;
+}
+
+/*section_three*/
 
 
 
