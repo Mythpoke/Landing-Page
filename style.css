@@ -2,11 +2,17 @@
     font-family: sans-serif;
 }
 
+ body {
+    margin: 0;
+    padding: 0;
+}
 
 /*header*/
 
 .header {
     background: #1f2937;
+    margin: 0;
+    padding: 0;
 }
 
 .small-header {
@@ -176,4 +182,19 @@ h3 {
 .left .call {
     font-size: 24px;
     font-weight: bold;
+}
+
+/*footer*/
+
+.footer {
+    background: #1f2937;
+    padding: 4em;
+}
+
+.footer_text {
+    font-size: 18px;
+    color: #E5E7EB;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
