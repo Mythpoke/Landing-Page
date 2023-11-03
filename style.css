@@ -1,8 +1,13 @@
+* {
+    font-family: sans-serif;
+}
+
+
+/*header*/
+
 .header {
     background: #1f2937;
 }
-
-/*header*/
 
 .small-header {
     display: flex;
@@ -77,15 +82,38 @@ h2 {
     border: 0px;
 }
 
+/*section_one*/
 
+.section_one {
+    display: flex;
+    padding: 2em;
+    gap: 72px;
+    justify-content: center;
+    align-items: center;
+}
 
+.info {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    max-width: 140px;
+    gap: 9px;
+}
 
+.cube {
+    width: 150px;
+    height: 150px;
+    border-radius: 9px;
+    border: solid #3882F6;
+}
 
-
-
-
-
-
+h3 {
+    font-size: 36px;
+    font-weight: extra-bold;
+    color: #1F2937;
+    text-align: center;
+}
 
 
 
